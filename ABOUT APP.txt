@@ -1,0 +1,4 @@
+Java app contains server with two clients. Client A always connects to Client B,
+then Client B sends his screen to Client A, Client A receives screen of Client A and send information for mouse coordination, mouse clicks and keyboard inputs.
+App works with public RSA keys exchanged with Diffie-Hellman protocol, Secured Remote Protocol for connection between clients and in the end
+Data is transferred with AES end-to-end Encryption.
